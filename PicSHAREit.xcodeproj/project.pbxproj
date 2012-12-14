@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCAA0FF167BA007007D3462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCAA0FE167BA007007D3462 /* UIKit.framework */; };
+		DFCAA101167BA007007D3462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCAA100167BA007007D3462 /* Foundation.framework */; };
+		DFCAA103167BA007007D3462 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCAA102167BA007007D3462 /* CoreGraphics.framework */; };
+		DFCAA109167BA007007D3462 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCAA107167BA007007D3462 /* InfoPlist.strings */; };
+		DFCAA10B167BA007007D3462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCAA10A167BA007007D3462 /* main.m */; };
+		DFCAA10F167BA007007D3462 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCAA10E167BA007007D3462 /* SPAppDelegate.m */; };
+		DFCAA112167BA007007D3462 /* SPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCAA111167BA007007D3462 /* SPMasterViewController.m */; };
+		DFCAA115167BA007007D3462 /* SPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCAA114167BA007007D3462 /* SPDetailViewController.m */; };
+		DFCAA118167BA007007D3462 /* SPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCAA116167BA007007D3462 /* SPMasterViewController.xib */; };
+		DFCAA11B167BA007007D3462 /* SPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCAA119167BA007007D3462 /* SPDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFCAA0FA167BA007007D3462 /* PicSHAREit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicSHAREit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCAA0FE167BA007007D3462 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFCAA100167BA007007D3462 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFCAA102167BA007007D3462 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFCAA106167BA007007D3462 /* PicSHAREit-Info.plist */ = {isa = PBXFileReference; path = "PicSHAREit-Info.plist"; sourceTree = "<group>"; };
+		DFCAA108167BA007007D3462 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFCAA10A167BA007007D3462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFCAA10C167BA007007D3462 /* PicSHAREit-Prefix.pch */ = {isa = PBXFileReference; path = "PicSHAREit-Prefix.pch"; sourceTree = "<group>"; };
+		DFCAA10D167BA007007D3462 /* SPAppDelegate.h */ = {isa = PBXFileReference; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		DFCAA10E167BA007007D3462 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		DFCAA110167BA007007D3462 /* SPMasterViewController.h */ = {isa = PBXFileReference; path = SPMasterViewController.h; sourceTree = "<group>"; };
+		DFCAA111167BA007007D3462 /* SPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMasterViewController.m; sourceTree = "<group>"; };
+		DFCAA113167BA007007D3462 /* SPDetailViewController.h */ = {isa = PBXFileReference; path = SPDetailViewController.h; sourceTree = "<group>"; };
+		DFCAA114167BA007007D3462 /* SPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDetailViewController.m; sourceTree = "<group>"; };
+		DFCAA117167BA007007D3462 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPMasterViewController.xib; sourceTree = "<group>"; };
+		DFCAA11A167BA007007D3462 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCAA0F7167BA007007D3462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAA0FF167BA007007D3462 /* UIKit.framework in Frameworks */,
+				DFCAA101167BA007007D3462 /* Foundation.framework in Frameworks */,
+				DFCAA103167BA007007D3462 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCAA0EF167BA006007D3462 = {
+			isa = PBXGroup;
+			children = (
+				DFCAA104167BA007007D3462 /* PicSHAREit */,
+				DFCAA0FD167BA007007D3462 /* Frameworks */,
+				DFCAA0FB167BA007007D3462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCAA0FB167BA007007D3462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCAA0FA167BA007007D3462 /* PicSHAREit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCAA0FD167BA007007D3462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFCAA0FE167BA007007D3462 /* UIKit.framework */,
+				DFCAA100167BA007007D3462 /* Foundation.framework */,
+				DFCAA102167BA007007D3462 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCAA104167BA007007D3462 /* PicSHAREit */ = {
+			isa = PBXGroup;
+			children = (
+				DFCAA10D167BA007007D3462 /* SPAppDelegate.h */,
+				DFCAA10E167BA007007D3462 /* SPAppDelegate.m */,
+				DFCAA110167BA007007D3462 /* SPMasterViewController.h */,
+				DFCAA111167BA007007D3462 /* SPMasterViewController.m */,
+				DFCAA113167BA007007D3462 /* SPDetailViewController.h */,
+				DFCAA114167BA007007D3462 /* SPDetailViewController.m */,
+				DFCAA116167BA007007D3462 /* SPMasterViewController.xib */,
+				DFCAA119167BA007007D3462 /* SPDetailViewController.xib */,
+				DFCAA105167BA007007D3462 /* Supporting Files */,
+			);
+			path = PicSHAREit;
+			sourceTree = "<group>";
+		};
+		DFCAA105167BA007007D3462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCAA106167BA007007D3462 /* PicSHAREit-Info.plist */,
+				DFCAA107167BA007007D3462 /* InfoPlist.strings */,
+				DFCAA10A167BA007007D3462 /* main.m */,
+				DFCAA10C167BA007007D3462 /* PicSHAREit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCAA0F9167BA007007D3462 /* PicSHAREit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCAA11E167BA007007D3462 /* Build configuration list for PBXNativeTarget "PicSHAREit" */;
+			buildPhases = (
+				DFCAA0F6167BA007007D3462 /* Sources */,
+				DFCAA0F7167BA007007D3462 /* Frameworks */,
+				DFCAA0F8167BA007007D3462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicSHAREit;
+			productName = PicSHAREit;
+			productReference = DFCAA0FA167BA007007D3462 /* PicSHAREit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCAA0F1167BA006007D3462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DFCAA0F4167BA006007D3462 /* Build configuration list for PBXProject "PicSHAREit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFCAA0EF167BA006007D3462;
+			productRefGroup = DFCAA0FB167BA007007D3462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCAA0F9167BA007007D3462 /* PicSHAREit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCAA0F8167BA007007D3462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAA109167BA007007D3462 /* InfoPlist.strings in Resources */,
+				DFCAA118167BA007007D3462 /* SPMasterViewController.xib in Resources */,
+				DFCAA11B167BA007007D3462 /* SPDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCAA0F6167BA007007D3462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAA10B167BA007007D3462 /* main.m in Sources */,
+				DFCAA10F167BA007007D3462 /* SPAppDelegate.m in Sources */,
+				DFCAA112167BA007007D3462 /* SPMasterViewController.m in Sources */,
+				DFCAA115167BA007007D3462 /* SPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFCAA107167BA007007D3462 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCAA108167BA007007D3462 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFCAA116167BA007007D3462 /* SPMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCAA117167BA007007D3462 /* en */,
+			);
+			name = SPMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		DFCAA119167BA007007D3462 /* SPDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCAA11A167BA007007D3462 /* en */,
+			);
+			name = SPDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCAA11C167BA007007D3462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFCAA11D167BA007007D3462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCAA11F167BA007007D3462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicSHAREit/PicSHAREit-Prefix.pch";
+				INFOPLIST_FILE = "PicSHAREit/PicSHAREit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFCAA120167BA007007D3462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicSHAREit/PicSHAREit-Prefix.pch";
+				INFOPLIST_FILE = "PicSHAREit/PicSHAREit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCAA0F4167BA006007D3462 /* Build configuration list for PBXProject "PicSHAREit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCAA11C167BA007007D3462 /* Debug */,
+				DFCAA11D167BA007007D3462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCAA11E167BA007007D3462 /* Build configuration list for PBXNativeTarget "PicSHAREit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCAA11F167BA007007D3462 /* Debug */,
+				DFCAA120167BA007007D3462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCAA0F1167BA006007D3462 /* Project object */;
+}
